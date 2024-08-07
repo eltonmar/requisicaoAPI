@@ -17,7 +17,7 @@ def create_connection(driver, server, database, user, password, port):
     return connection
 
 # Replace these variables with your database credentials
-driver = "ODBC Driver 17 for SQL Server"  # Ensure this driver is installed
+driver = "ODBC Driver 17 for SQL Server"
 server = "187.0.198.167"
 user = "victor.oliveira"
 password = "@primo01"
