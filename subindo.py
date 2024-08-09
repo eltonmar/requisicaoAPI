@@ -27,12 +27,13 @@ def insert_data(connection, table_name, data):
 
     connection.commit()
 
+
 driver = "ODBC Driver 17 for SQL Server"
-server = ""
-user = ""
-password = ""
-database = ""
-port =
+server = "187.0.198.167"
+user = "victor.oliveira"
+password = "@primo01"
+database = "DADOS_EXCEL"
+port = 41433
 
 # Data to be inserted
 data = [

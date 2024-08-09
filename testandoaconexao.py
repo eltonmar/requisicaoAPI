@@ -16,13 +16,13 @@ def create_connection(driver, server, database, user, password, port):
 
     return connection
 
-# Replace these variables with your database credentials
+
 driver = "ODBC Driver 17 for SQL Server"
-server = ""
-user = ""
-password = ""
-database = ""
-port =
+server = "187.0.198.167"
+user = "victor.oliveira"
+password = "@primo01"
+database = "DADOS_EXCEL"
+port = 41433
 
 connection = create_connection(driver, server, database, user, password, port)
 
