@@ -210,7 +210,7 @@ def job():
 
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        time.sleep(0.5)
 
 if __name__ == "__main__":
     job()
