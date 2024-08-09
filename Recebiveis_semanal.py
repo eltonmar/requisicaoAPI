@@ -174,7 +174,7 @@ def job():
                     else:
                         print(f"Erro para a empresa {companyNumber}: {response.status_code}")
 
-    schedule.every(10).seconds.do(main)
+    schedule.every().day.at("06:00").do(main)
 
     while True:
         schedule.run_pending()
